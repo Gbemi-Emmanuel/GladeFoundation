@@ -1,0 +1,173 @@
+@import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url('https://fonts.cdnfonts.com/css/faktum-test');
+
+                
+
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --blue: #293FFF;
+    --gray: #E6E6E6;
+    --gFont: 'poppins', sans-serif;
+    --sFont: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body{
+  font-family: var(--gFont);
+}
+
+.navbar{
+  padding: 20px 0px;
+}
+
+.navbar .navbar-nav .nav-item{
+  padding: 0px 10px;
+  font-size: 18px;
+}
+.navbar .navbar-toggler{
+  box-shadow: none;
+  border: none;
+  outline: none;
+  color: var(--black);
+  font-size: 25px;
+  text-align: center;
+}
+
+.navbar form button {
+  padding: 10px 16px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+}
+
+/*======= HEROSECTION SECTION =======*/
+
+.heroSection {
+  width: 100%;
+  background-size: cover;
+  /* background-image: url('../public/img/banner.png'); */
+  background-position: center;
+  /* color: var(--white); */
+}
+
+.heroSection .content{
+  padding: 20px 0px;
+}
+
+.heroSection .right-side h1 {
+  font-size: 56px;
+  font-family: var(--sFont);
+  font-weight: 500;
+}
+
+.heroSection .right-side p {
+  font-size: 18px;
+}
+
+.heroSection .right-side button {
+  font-size: 16px;
+  padding: 14px 22px;
+  outline: none;
+  border: none;
+  background: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+}
+
+
+
+
+.GetInvolved .headline .left-side h1 {
+  font-family: var(--sFont);
+  font-weight: 600;
+}
+
+.GetInvolved .headline .left-side h1 span{
+  color: var(--blue);
+}
+
+.GetInvolved .headline .left-side p{
+  font-weight: 500;
+}
+
+.GetInvolved .headline .right-side p{
+  font-size: 14px;
+  padding: 10px 15px;
+  box-shadow: 2px 2px 30px -15px var(--blue);
+  border-radius: 10px;
+}
+
+.GetInvolved .involvments{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.GetInvolved .involvments .involvementBox{
+  margin-top: 40px;
+  padding: 20px;
+  
+}
+
+.GetInvolved .involvments .iconBox{
+  padding: 10px;
+}
+
+.GetInvolved .involvments .iconBox i{
+  padding: 20px;
+  font-size: 35px;
+  color: var(--blue);
+  box-shadow: 2px 2px 30px -15px var(--blue);
+  border-radius: 50%;
+}
+
+.GetInvolved .involvments .iconBox svg{
+  padding: 15px;
+  width: 70px;
+  height: 70px;
+  color: var(--blue);
+  box-shadow: 2px 2px 30px -15px var(--blue);
+  border-radius: 50%;
+}
+
+.GetInvolved .involvments h3{
+  font-family: var(--sFont);
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+
+.GetInvolved .involvments p{
+  font-size: 14px;
+}
+
+.GetInvolved .involvmentButton{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.GetInvolved .involvmentButton button{
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+}
+
+.GetInvolved .involvmentButton button i{
+  padding-right: 10px;
+}
