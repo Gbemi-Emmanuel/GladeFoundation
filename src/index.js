@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import "./index.css";
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+import About from './components/About';
 import GetInvolved from './components/GetInvolved';
 import Footer from './components/footer';
 
@@ -12,6 +13,7 @@ root.render(
   <>
   <Header />
   <HeroSection />
+  <About />
   <GetInvolved />
   <Footer />
   </>

@@ -23,17 +23,41 @@ a {
   text-decoration: none;
 }
 
+h1{
+  font-family: var(--sFont);
+  font-weight: 600;
+}
+
 body{
   font-family: var(--gFont);
+}
+
+.headline .left-side h1 {
+  font-family: var(--sFont);
+  font-weight: 600;
+}
+
+.headline .left-side h1 span{
+  color: var(--blue);
+}
+
+.headline .left-side p{
+  font-weight: 500;
 }
 
 .navbar{
   padding: 20px 0px;
 }
 
+.navbar .navbar-brand {
+  font-weight: 700;
+  color: var(--blue);
+}
+
 .navbar .navbar-nav .nav-item{
   padding: 0px 10px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
 }
 .navbar .navbar-toggler{
   box-shadow: none;
@@ -118,8 +142,14 @@ body{
 
 .GetInvolved .involvments .involvementBox{
   margin-top: 40px;
-  padding: 20px;
-  
+  border-radius: 20px;
+  padding: 20px 40px;
+  box-shadow: 2px 2px 20px -15px var(--blue);
+  transition: .5s ease;
+}
+
+.GetInvolved .involvments .involvementBox:hover{
+  transform: scale(1.1);
 }
 
 .GetInvolved .involvments .iconBox{
@@ -130,7 +160,7 @@ body{
   padding: 20px;
   font-size: 35px;
   color: var(--blue);
-  box-shadow: 2px 2px 30px -15px var(--blue);
+  box-shadow: 2px 2px 40px -15px var(--blue);
   border-radius: 50%;
 }
 
@@ -139,7 +169,7 @@ body{
   width: 70px;
   height: 70px;
   color: var(--blue);
-  box-shadow: 2px 2px 30px -15px var(--blue);
+  box-shadow: 2px 2px 40px -15px var(--blue);
   border-radius: 50%;
 }
 
@@ -170,4 +200,26 @@ body{
 
 .GetInvolved .involvmentButton button i{
   padding-right: 10px;
+}
+
+
+
+
+
+.About {
+  padding-bottom: 100px;
+}
+
+.About .right-side {
+  text-align: left;
+  padding: 25px;
+}
+
+.About .right-side h1{
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.About .right-side p{
+  font-size: 14px;
 }
