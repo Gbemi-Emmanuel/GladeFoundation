@@ -139,6 +139,22 @@ header{
 
 .heroSection .right-side button i {
   padding-right: 10px;
+  animation-name: pumping;
+  animation-iteration-count: infinite;
+  animation-duration: 1.1s;
+  transition: all 1s;
+}
+
+@keyframes pumping {
+  0%{
+      transform: scale(0.8);
+  }
+  50%{
+      transform: scale(1.2);
+  }
+  100%{
+      transform: scale(0.8);
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -238,6 +254,22 @@ header{
 
 .GetInvolved .involvmentButton button i{
   padding-right: 10px;
+  animation-name: pumping;
+  animation-iteration-count: infinite;
+  animation-duration: 1.1s;
+  transition: all 1s;
+}
+
+@keyframes pumping {
+  0%{
+      transform: scale(0.8);
+  }
+  50%{
+      transform: scale(1.2);
+  }
+  100%{
+      transform: scale(0.8);
+  }
 }
 
 
