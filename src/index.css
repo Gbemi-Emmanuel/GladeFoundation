@@ -272,7 +272,24 @@ header{
   }
 }
 
+.GetInvolved .modal-body .header h1{
+  font-size: 30px;
+  padding-bottom: 30px;
+  font-family: var(--sFont);
+}
 
+.GetInvolved .modal-body .header h1 span {
+  color: var(--blue);
+}
+
+.GetInvolved .modal-body button{
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+}
 
 /*======= ABOUTSECTION =======*/
 

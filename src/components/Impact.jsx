@@ -65,6 +65,7 @@ const Impact = () => {
           field="email"
           errors={state.errors}
         />
+        <br />
         <label htmlFor="message">
           Reasons for fund:
         </label>

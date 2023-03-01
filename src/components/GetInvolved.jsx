@@ -76,7 +76,7 @@ const GetInvolved = () => {
     return (
       <div className="donateModal">
         <div className="header">
-
+          <h1>Help us lead the fight against covid-19 <span>with your donation</span></h1>
         </div>
         <form action="">
           <div className="row">
