@@ -149,6 +149,9 @@ header{
 
 
 
+/*======= GET INVOLVED SECTION =======*/
+
+
 
 .GetInvolved .headline .left-side h1 {
   font-family: var(--sFont);
@@ -239,6 +242,7 @@ header{
 
 
 
+/*======= ABOUTSECTION =======*/
 
 
 .About {
@@ -258,6 +262,11 @@ header{
 .About .right-side p{
   font-size: 14px;
 }
+
+
+
+/*======= IMPACT SECTION =======*/
+
 
 
 .Impact{
@@ -309,6 +318,9 @@ header{
 }
 
 
+/*======= NEED HELP SECTION =======*/
+
+
 .Resources .resourcesImg {
   width: 100%;
   height: 400px;
@@ -338,6 +350,8 @@ header{
 }
 
 
+
+/*======= FOOTER SECTION =======*/
 
 
 

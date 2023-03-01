@@ -26,15 +26,15 @@ const Resources = () => {
                   <h3><i className="fa-solid fa-mask-face"></i>Wear a mask:</h3>
                   <p>Wearing a mask can help reduce the spread of COVID-19. Wear a mask when you are in public, especially in indoor spaces where it may be difficult to maintain social distancing.</p>
                 </div>
-                <div  data-aos="fade-right" data-aos-delay="700" className="content">
+                <div  data-aos="fade-right" data-aos-delay="600" className="content">
                   <h3><i className="fa-solid fa-hands-bubbles"></i>Wash your hands frequently:</h3>
                   <p>Wash your hands with soap and water for at least 20 seconds, or use hand sanitizer when soap and water are not available.</p>
                 </div>
-                <div  data-aos="fade-right" data-aos-delay="1000" className="content">
+                <div  data-aos="fade-right" data-aos-delay="900" className="content">
                   <h3><i className="fa-solid fa-house"></i>Stay home if you are feeling unwell:</h3>
                   <p>If you have symptoms of COVID-19 or have been in close contact with someone who has tested positive for COVID-19, stay home and get tested.</p>
                 </div>
-                <div  data-aos="fade-right" data-aos-delay="1300" className="content">
+                <div  data-aos="fade-right" data-aos-delay="1200" className="content">
                   <h3><i className="fa-solid fa-box-tissue"></i>Practice good respiratory hygiene:</h3>
                   <p>Cover your mouth and nose with a tissue or your elbow when you cough or sneeze.</p>
                 </div>

@@ -40,9 +40,9 @@ const Header = () => {
                   <a className="nav-link" href="#Resources">Be Safe</a>
                 </li>
               </ul>
-              <form className="form-inline my-2 my-lg-0">
-                <button data-toggle="modal" data-target="#donate" className="btn btn-primary justify-content-end" type="submit">Donate Now</button>
-            </form>
+              <div className="form-inline my-2 my-lg-0">
+                <button data-toggle="modal" data-target="#donate" className="btn btn-primary justify-content-end" >Donate Now</button>
+            </div>
             </div>
           </nav>
         </header>

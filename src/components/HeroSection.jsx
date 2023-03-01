@@ -39,7 +39,7 @@ AOS.init({
             <div className="container ">
             <div className="row d-flex align-items-center content">
                 <div className="col-md-6 right-side" >
-                    <h1 data-aos="fade-left">At Glade Foundation</h1>
+                    <h1 data-aos="fade-up">At Glade Foundation</h1>
                     <p data-aos-delay="100" data-aos="fade-up">we're committed to helping those affected by COVID-19. Join us in our mission to provide relief and assistance to those in need.</p>
                     <button data-aos="zoom-out" data-aos-delay="200" data-toggle="modal" data-target="#donate"><i className="fa-solid fa-heart"></i>Donate Now</button>
                 </div>
